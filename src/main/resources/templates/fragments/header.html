@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+		xmlns:layout=http://www.ultraq.net.nz/thymeleaf/layout
+		layout:decorate="~{layout/layout1}">
+
+	<div th:fragment="header">
+	
+		<div>
+			<h1><a href="/">Plague Doctor</a></h1> 
+			<a href="/about/aboutpage">about</a>
+			<a href="/theme/themepage">Theme</a>
+			<a href="/reservation/reservationpage">reservation</a>
+			<a href="/qna/qnaContentPage">QnA</a>
+		</div>
+		
+		<div>
+			<a href="#">로그인</a>
+			<a href="#">회원가입</a>	
+		</div>
+		
+	</div>
+
+</html>
